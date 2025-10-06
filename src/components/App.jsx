@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import CartProvider from './state/CartProvider'
-import Header from './Header'
+import Header from './sections/Header.jsx'
 import Home from '../pages/Home.jsx'
 import About from '../pages/About.jsx'
 import Contact from '../pages/Contact.jsx'
+import Footer from './sections/Footer.jsx'
+import CartProvider from './state/CartProvider.jsx'
 
-export default function App(){
+export default function App() {
     // guardamos los módulos de react-router-dom sólo después de importarlos en el cliente
     const [routerModules, setRouterModules] = useState(null)
 
@@ -52,6 +53,7 @@ export default function App(){
                         <Home />
                     )}
                 </main>
+                <Footer />
             </div>
         </CartProvider>
     )

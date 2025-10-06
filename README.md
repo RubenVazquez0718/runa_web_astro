@@ -47,7 +47,7 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 :-----------------------------------------------------------------------------:
 
-# RENA - Astro + React Islands (SPA)
+# RUNA - Astro + React Islands (SPA)
 ## Quick start
 1. Crear proyecto: `npm init astro@latest` y seleccionar template vacío.
 2. Copia los archivos del repositorio (reemplaza los paths y assets como `public/assets/logo.png`).

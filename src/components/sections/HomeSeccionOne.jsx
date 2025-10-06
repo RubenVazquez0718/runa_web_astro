@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const slides = [
     {
         id: 1,
-        titulo: "RENA REFACCIONES",
-        mensaje: "En RENA Refaccionaria, ofrecemos refacciones y soluciones confiables para maquinaria pesada, grúas y equipos industriales, garantizando calidad, seguridad y respaldo a nuestros clientes en todo México.",
+        titulo: "RUNA REFACCIONES",
+        mensaje: "En RUNA Refaccionaria, ofrecemos refacciones y soluciones confiables para maquinaria pesada, grúas y equipos industriales, garantizando calidad, seguridad y respaldo a nuestros clientes en todo México.",
         imagen: "/assets/images/carrousel_1.png",
         textoBoton: "CONOCENOS"
     },
@@ -35,7 +35,6 @@ export default function HomeSeccionOne() {
         return () => clearInterval(interval);
     }, []);
 
-
     return (
         <section className="relative h-114 w-full overflow-hidden flex items-center justify-center text-white">
             {slides.map((slide, index) => (
@@ -50,7 +49,7 @@ export default function HomeSeccionOne() {
                     }}>
 
                     {/* Contenido */}
-                    <div className="h-full flex flex-col justify-center items-start px-6 md:px-20">
+                    <div className="h-full flex flex-col justify-center items-center px-6 md:px-20">
                         <h2 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight"> {slide.titulo} </h2>
                         <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-6"> {slide.mensaje} </p>
                         <button className="bg-[#d5792a] hover:bg-[#b85f1f] px-6 py-3 rounded-xl font-semibold transition-all shadow-lg">
