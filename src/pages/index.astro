@@ -1,0 +1,24 @@
+---
+// import '../styles/global.css'
+// import Welcome from '../components/Welcome.astro';
+// import Layout from '../layouts/Layout.astro';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import App from '../components/App.jsx'
+import '../styles/global.css'
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RENA Refacciones</title>
+		<link rel="icon" type="image/x-icon" href="assets/runa_favicon.png">
+	</head>
+	
+	<body class="body-bg min-h-screen">
+	<!-- Hydrate the single React root as an island -> SPA like behavior -->
+		<App client:load />
+	</body>
+</html>
