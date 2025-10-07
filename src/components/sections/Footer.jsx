@@ -20,7 +20,7 @@ export default function Footer() {
     const linkClassTwo = "flex items-center text-white font-semibold cursor-pointer min-w-36 rounded-lg px-4 hover:underline hover:bg-yellow-400 hover:text-amber-700"
     
     return (
-        <section className="grid xs:grid-cols-3 grid-cols-1 bg-gray-700 text-white text-center py-4 xs:py-8">
+        <section className="grid xs:grid-cols-3 grid-cols-1 bg-gray-700 text-white text-center py-2 xs:py-4">
             <div className="flex flex-col space-y-2 px-4 py-3 xs:p-4 font-semibold items-center">
                 <a href="/" className={linkClassOne}> Inicio </a>
                 <a href="/about" className={linkClassOne}> Nosotros </a>
