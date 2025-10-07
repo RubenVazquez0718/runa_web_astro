@@ -12,7 +12,7 @@ export default function HomeSeccionTwo() {
                             Nacimos con el propósito de brindar soluciones eficientes y seguras, respaldadas por un servicio comprometido con el crecimiento de nuestros clientes. <br />
 
                             Comenzamos nuestras operaciones en Villahermosa, Centro, Tabasco, con la meta de expandirnos a cada rincón de México y, con el tiempo, llevar la fuerza y calidad de nuestras refacciones al mundo entero.
-                            En RENA creemos que el trabajo bien hecho, la atención personalizada y la confianza son la base para construir relaciones duraderas con cada cliente.
+                            En RUNA creemos que el trabajo bien hecho, la atención personalizada y la confianza son la base para construir relaciones duraderas con cada cliente.
                         </p>
                     </div>
 
@@ -28,7 +28,7 @@ export default function HomeSeccionTwo() {
                     <div className="flex-1 text-center md:text-left">
                         <h3 className="text-3xl font-bold text-gray-800 mb-4 border-l-4 border-orange-500 pl-3 inline-block"> Nuestra Misión </h3>
                         <p className="text-gray-600 leading-relaxed">
-                            En <span className="font-semibold text-blue-700">RENA Refaccionaria</span>, 
+                            En <span className="font-semibold text-blue-700">RUNA Refaccionaria</span>, 
                             ofrecemos refacciones y soluciones confiables para maquinaria pesada, grúas y equipos industriales, 
                             garantizando calidad, seguridad y respaldo a nuestros clientes en todo México.
                             Nos comprometemos a brindar un servicio eficiente y profesional, 
@@ -38,7 +38,7 @@ export default function HomeSeccionTwo() {
 
                     {/* Imagen */}
                     <div className="flex-1">
-                        <img src="/assets/images/section_2_two.png" alt="Misión RENA" className="rounded-2xl shadow-lg object-cover w-full h-80" />
+                        <img src="/assets/images/section_2_two.png" alt="Misión RUNA" className="rounded-2xl shadow-lg object-cover w-full h-80" />
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ export default function HomeSeccionTwo() {
 
                     {/* Imagen */}
                     <div className="flex-1">
-                        <img src="/assets/images/section_2_three.png" alt="Visión RENA" className="rounded-2xl shadow-lg object-cover w-full h-80" />
+                        <img src="/assets/images/section_2_three.png" alt="Visión RUNA" className="rounded-2xl shadow-lg object-cover w-full h-80" />
                     </div>
                 </div>
             </div>

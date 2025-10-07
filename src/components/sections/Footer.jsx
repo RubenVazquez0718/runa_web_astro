@@ -45,7 +45,7 @@ export default function Footer() {
                 <div className='text-lg font-semibold'> ¡Contactanos! </div>
                 <div className='flex flex-col text-center'>
                     <div className='text-sm'> Envíanos un correo al siguiente correo: </div>
-                    <div className='text-md font-semibold'> contacto@renarefacciones.com </div>
+                    <div className='text-md font-semibold'> contacto@runarefacciones.com </div>
                 </div>
                 <div className='flex flex-col items-center'>
                     <div className='text-sm'> Puedes contactarnos directamente al Whatsapp: </div>
