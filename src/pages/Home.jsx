@@ -1,15 +1,19 @@
-import HomeSeccionOne from '../components/sections/HomeSeccionOne.jsx'
-import HomeSeccionTwo from '../components/sections/HomeSeccionTwo.jsx'
-import HomeSeccionThree from '../components/sections/HomeSeccionThree.jsx'
-import HomeSeccionFour from '../components/sections/HomeSeccionFour.jsx'
+import Banner from '../components/sections/Banner.jsx'
+import InfoEmpresa from '../components/sections/InfoEmpresa.jsx'
+import CarrouselComercial from '../components/sections/CarrouselComercial.jsx'
+import Productos from '../components/sections/Productos.jsx'
+import Cobertura from '../components/sections/Cobertura.jsx'
+import Garantia from '../components/sections/Garantia.jsx'
 
 export default function Home() {
     return (
         <section>
-            <HomeSeccionOne />
-            <HomeSeccionTwo />
-            <HomeSeccionThree />
-            <HomeSeccionFour />
+            <Banner />
+            <InfoEmpresa />
+            <CarrouselComercial />
+            <Productos />
+            <Garantia />
+            <Cobertura />
         </section>
     )
 }
